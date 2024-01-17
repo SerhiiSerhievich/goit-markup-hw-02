@@ -44,7 +44,6 @@ body {
 
 .link {
     text-decoration: none;
-    font-style: normal;
     
 }
 
@@ -193,6 +192,7 @@ body {
 
 .contacst-footer {
     color: var(--main-color);
+    font-style: normal;
 }
 
 
