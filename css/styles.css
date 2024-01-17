@@ -92,7 +92,7 @@ body {
     color: var(--hover-color);
  }
 
- .header-menu .menu-link.current {
+ .header-menu .menu-item .menu-link.current {
     color: var(--hover-color);
  }
 /*--------------------------------------- hero -----------------------------------------------------*/
