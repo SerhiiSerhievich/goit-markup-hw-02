@@ -68,7 +68,6 @@ body {
     overflow: hidden;
 }
 
-
 /*--------------------------------------- header -----------------------------------------------------*/ 
 
 .menu-link {
@@ -78,10 +77,9 @@ body {
     line-height: var(--first-lh);
     letter-spacing: 0.28px;
 }
-
-.menu-link:hover, .menu-link:focus {
+ .menu-link:hover, .menu-link:focus {
     color: var(--hover-color);
-}
+ }
 
 .contacts-link {
     color: var(--second-text-color);
@@ -94,6 +92,13 @@ body {
     color: var(--hover-color);
  }
 
+ .index-color {
+    color: var(--hover-color);
+ }
+
+ .portfolio-color {
+    color: var(--hover-color);
+ }
 /*--------------------------------------- hero -----------------------------------------------------*/
 
  .hero {
