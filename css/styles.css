@@ -186,6 +186,7 @@ body {
     font-size: 14px;
     line-height: var(--first-lh);
     letter-spacing: 0.42px;
+    font-style: normal;
 }
 
 .contacst-footer {
