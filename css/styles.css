@@ -92,9 +92,9 @@ body {
     color: var(--hover-color);
  }
 
-.contacts-link:active {
+ .header-menu .menu-link.current {
     color: var(--hover-color);
-}
+ }
 /*--------------------------------------- hero -----------------------------------------------------*/
 
  .hero {
