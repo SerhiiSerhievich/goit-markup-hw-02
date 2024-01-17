@@ -92,13 +92,9 @@ body {
     color: var(--hover-color);
  }
 
- .index-color {
+.contacts-link:active {
     color: var(--hover-color);
- }
-
- .portfolio-color {
-    color: var(--hover-color);
- }
+}
 /*--------------------------------------- hero -----------------------------------------------------*/
 
  .hero {
