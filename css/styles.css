@@ -1,12 +1,12 @@
 :root {
     --main-color: #fff;
     --first-color: #2F303A;
-    --second-color: #FAF4F9;
+    --second-color: #F5F4FA;
     --first-text-color: #212121;
     --second-text-color: #757575;
     --hover-color: #2196F3;
     --button-first-color: #2196F3;
-    --button-second-color: #FAF4F9;
+    --button-second-color: #F5F4FA;
     --first-lh: 1.71;
     --second-lh: 1.87;
 }
@@ -21,7 +21,6 @@ body {
 
 
 .logo {
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: "Raleway", sans-serif;
     font-size: 26px;
     font-weight: 700;
@@ -187,6 +186,10 @@ body {
     font-size: 14px;
     line-height: var(--first-lh);
     letter-spacing: 0.42px;
+}
+
+.contacst-footer {
+    color: var(--main-color);
 }
 
 
