@@ -11,6 +11,25 @@
     --second-lh: 1.87;
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
 
 body {
     font-family: "Roboto", sans-serif;
@@ -70,6 +89,10 @@ body {
 
 /*--------------------------------------- header -----------------------------------------------------*/ 
 
+.header {
+    padding: 24px 0 25px;
+}
+
 .menu-link {
     color: var(--first-text-color);
     font-size: 14px;
@@ -98,8 +121,9 @@ body {
 /*--------------------------------------- hero -----------------------------------------------------*/
 
  .hero {
-    background-color: var(--first-color)
-    ;
+    background-color: var(--first-color);
+    padding-top: 200px;
+    padding-bottom: 200px;
  }
 
  .hero-title {
@@ -110,6 +134,7 @@ body {
     line-height: 1.36;
     letter-spacing: 2.64px;
     text-transform: uppercase;
+    margin-bottom: 30px;
  }
 
  .hero-button {
@@ -132,6 +157,10 @@ body {
 
  /*--------------------------------------- advantages -----------------------------------------------------*/
 
+ .advantages {
+    padding-top: 94px;
+    padding-bottom: 94px;
+ }
 
 .advantages-list-title {
     font-size: 14px;
@@ -148,10 +177,27 @@ body {
     letter-spacing: 0.42px;
 }
 
+/*--------------------------------------- service -----------------------------------------------------*/
+
+.services {
+    padding-bottom: 94px;
+}
+
+.services-title {
+    margin-bottom: 50px;
+}
+
+
  /*--------------------------------------- team -----------------------------------------------------*/
 
 .team {
     background-color: var(--second-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.team-title {
+    margin-bottom: 50px;
 }
 
 .team-list-title {
@@ -180,6 +226,8 @@ body {
 /*--------------------------------------- footer -----------------------------------------------------*/
 .footer {
     background-color: var(--first-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .address-text {
@@ -188,6 +236,7 @@ body {
     line-height: var(--first-lh);
     letter-spacing: 0.42px;
     font-style: normal;
+    margin-top: 20px;
 }
 
 .contacst-footer {
@@ -201,6 +250,16 @@ body {
 
 
 /* ********************************************** PORTFOLIO ****************************************************** */
+
+.portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.portfolio-filtr {
+    margin-bottom: 50px;
+}
+
+
 
 .filtr-button {
     color: var(--first-text-color);
@@ -235,6 +294,7 @@ body {
     line-height: var(--second-lh);
     letter-spacing: 0.48px;
 }
+
 
 
 /*  */
