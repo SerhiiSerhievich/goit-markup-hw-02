@@ -87,6 +87,8 @@ body {
     overflow: hidden;
 }
 
+
+
 /*--------------------------------------- header -----------------------------------------------------*/ 
 
 .header {
@@ -172,6 +174,7 @@ body {
     line-height: var(--second-lh);
     letter-spacing: 0.96px;
     border-radius: 4px;
+    border: 0px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     cursor: pointer;
     min-width: 200px;
@@ -255,6 +258,8 @@ body {
     font-weight: 500;
     line-height: var(--second-lh);
     letter-spacing: 0.48px;
+    margin-top: 25px;
+    
 }
 
 .team-text {
@@ -263,6 +268,7 @@ body {
     font-size: 16px;
     line-height: var(--second-lh);
     letter-spacing: 0.48px;
+    margin-bottom: 25px;
 }
 
 .team-item {
@@ -291,6 +297,7 @@ body {
     letter-spacing: 0.42px;
     font-style: normal;
     margin-top: 20px;
+    margin-top: 28px;
 }
 
 .contacst-footer {
@@ -302,7 +309,9 @@ body {
     letter-spacing: 0.42px;
 }
 
-
+.contacts-item {
+    margin-top: 12px;
+}
 /* ********************************************** PORTFOLIO ****************************************************** */
 
 .portfolio {
@@ -311,6 +320,9 @@ body {
 }
 .portfolio-filtr {
     margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
 }
 
 
@@ -324,9 +336,9 @@ body {
     letter-spacing: 0.48px;
     border-radius: 4px;
     background-color: var(--button-second-color);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
     cursor: pointer;
     padding: 6px 22px 6px 22px;
+    border: 0px;
 
 }
 
@@ -341,6 +353,7 @@ body {
     font-weight: 700;
     line-height: 2;
     letter-spacing: 1.08px;
+    margin: 20px 24px 0 24px;
 }
 
 .portfolio-text {
@@ -348,6 +361,7 @@ body {
     font-size: 16px;
     line-height: var(--second-lh);
     letter-spacing: 0.48px;
+    margin: 0 24px 20px 24px;
 }
 
 .portfolio-list {
@@ -359,6 +373,7 @@ body {
 }
 
 .portfolio-item {
+    border: 1px solid #eee;
     width: 370px;
     height: 404px;
 }
